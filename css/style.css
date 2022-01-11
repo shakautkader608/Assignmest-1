@@ -1,7 +1,60 @@
-body {
-    font-family: "Playfair Display", serif;
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
 }
 
-a{
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+p {
+    text-decoration: jus;
+}
+a {
     text-decoration: none;
+}
+
+.first-section {
+    display: flex;
+    align-items: center;
+}
+.first-section h1 {
+    font-family: "Lora", serif;
+    font-size: 50px;
+}
+
+.half-width {
+    width: 50%;
+    margin: 50px;
+}
+.orange-highlight {
+    color: orange;
+}
+.header-border {
+    border-left: 5px solid red;
+    padding-left: 20px;
+}
+.img-fluid {
+    width: 100%;
+}
+
+p.content-details{
+    text-align: justify;
+    padding-top: 30px;
+    width: 70%;
+}
+
+a.explore-now {
+    font-size: 15px;
+    background-color: #ff5959;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    transition: all linear .2s;
+}
+a.explore-now:hover { 
+    background-color: orange;
+    
 }
