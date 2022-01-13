@@ -9,6 +9,7 @@ body {
 }
 p {
     text-decoration: jus;
+    text-align: justify;
 }
 a {
     text-decoration: none;
@@ -38,8 +39,7 @@ a {
     width: 100%;
 }
 
-p.content-details{
-    text-align: justify;
+p.content-details {
     padding-top: 30px;
     width: 70%;
 }
@@ -52,9 +52,48 @@ a.explore-now {
     color: white;
     display: inline-block;
     margin-top: 10px;
-    transition: all linear .2s;
+    transition: all linear 0.2s;
 }
-a.explore-now:hover { 
+a.explore-now:hover {
     background-color: orange;
-    
+}
+
+p.scroll-down {
+    padding-top: 35px;
+}
+
+.my-mission h1 {
+    font-family: "Lora", serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.category {
+    display: flex;
+}
+.my-mission img {
+    width: 40%;
+}
+.content h3 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+.content p {
+    margin-top: 10px;
+}
+.mission {
+    width: 33.33%;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 40px 20px;
+    box-shadow: 5px 5px 20px grey;
+}
+.content-bg1 {
+    background: #edf5f6;
+}
+.content-bg2 {
+    background: #ffeeee;
+}
+.content-bg3 {
+    background: #fff4d6;
 }
