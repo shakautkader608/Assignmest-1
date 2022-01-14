@@ -13,6 +13,9 @@ body {
     font-family: "Poppins", sans-serif;
     /* letter-spacing: 0.8px; */
 }
+.section-gap {
+    padding: 60px 0;
+}
 p {
     /* line-height: 20px; */
     font-size: 24px;
@@ -24,7 +27,7 @@ a {
 .first-section {
     display: flex;
     align-items: center;
-    margin: 100px 0px;
+    /* margin: 100px 0px; */
 }
 .first-section h1 {
     font-family: "Lora", serif;
@@ -35,6 +38,20 @@ a {
 }
 .w-60 {
     width: 60%;
+}
+.pad {
+    padding-left: 40px;
+}
+.pad-2 {
+    padding: 0 80px 0 0;
+}
+h1.heading-title {
+    font-family: "Lora", serif;
+    font-size: 72px;
+    text-align: center;
+}
+h2.subheading-title {
+    font-size: 56px;
 }
 
 .half-width {
@@ -76,15 +93,9 @@ p.scroll-down {
     padding-top: 30px;
 }
 
-.my-mission h1 {
-    font-family: "Lora", serif;
-    font-size: 45px;
-    text-align: center;
-}
-
 .category {
     display: flex;
-    margin: 50px 0;
+    margin-top: 80px;
     justify-content: space-between;
 }
 .my-mission img {
@@ -118,64 +129,43 @@ p.scroll-down {
 .develop {
     display: flex;
     align-items: center;
-    margin: 50px;
 }
 
-.develop h2 {
-    font-size: 40px;
-}
 .develop p {
-    margin-top: 40px;
+    margin-top: 15px;
 }
 
-.develop {
-    background-image: url(../images/header-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
+
 .develop .explore-now {
     margin-top: 40px;
 }
 .global {
     display: flex;
     align-items: center;
-    margin: 50px;
 }
 
-.global h2 {
-    font-size: 40px;
-}
 .global p {
-    margin-top: 40px;
+    margin-top: 15px;
 }
 .global .explore-now {
     margin-top: 40px;
 }
 .global img {
-    width: 100%;
+    width: 90%;
+    margin-left: 55px;
 }
 
-.global {
-    background-image: url(../images/footer-bg.png);
-    background-repeat: no-repeat;
-}
 
-.corona h1 {
-    font-family: "Lora", serif;
-    font-size: 45px;
-    text-align: center;
-}
+
 .app-feature {
     display: flex;
     align-items: center;
-    margin: 50px;
+    margin-top: 80px;
 }
 .app-feature img {
     width: 90%;
 }
-.app-feature h2 {
-    font-size: 50px;
-}
+
 .app-feature p {
     margin-top: 40px;
 }
@@ -202,4 +192,16 @@ p.scroll-down {
 }
 .foot {
     background: black;
+    padding: 50px 0;
+    margin-top: 60px;
 }
+.background-1{
+    
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.background-2{
+    background-image: url(../images/footer-bg.png);   
+    background-repeat: no-repeat; 
+}    background-position: :right;
